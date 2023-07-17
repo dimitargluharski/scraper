@@ -31,7 +31,7 @@ let match;
 while ((match = matchPattern.exec(htmlContent)) !== null) {
   const time = match[1];
   const homeTeam = match[2].trim();
-  const link = `https://d.daddylivehd.sx/stream/${match[3]}`;
+  const link = `https://d.daddylivehd.sx/${match[3]}`;
 
   filteredMatches.push({
     time,
