@@ -5,34 +5,41 @@ const htmlToText = require("html-to-text");
 
 const url = "https://d.daddylivehd.sx/";
 
-// Fetch the HTML content of the website
-axios
-  .get(url)
-  .then((response) => {
-    const htmlContent = response.data;
+function updateIndexFile() {
+  // Fetch the HTML content of the website
+  axios
+    .get(url)
+    .then((response) => {
+      const htmlContent = response.data;
 
-    // Load the HTML content into cheerio
-    const $ = cheerio.load(htmlContent);
+      // Load the HTML content into cheerio
+      const $ = cheerio.load(htmlContent);
 
-    // Extract the relevant text using cheerio
-    const relevantText = $("body").text();
+      // Extract the relevant text using cheerio
+      const relevantText = $("body").text();
 
-    // Filter the relevant text based on soccer-related keywords
-    const soccerKeywords = ["Soccer"];
-    const filteredText = relevantText
-      .toLowerCase()
-      .split(" ")
-      .filter((word) => soccerKeywords.includes(word))
-      .join(" ");
+      // Filter the relevant text based on soccer-related keywords
+      const soccerKeywords = ["Soccer"];
+      const filteredText = relevantText
+        .toLowerCase()
+        .split(" ")
+        .filter((word) => soccerKeywords.includes(word))
+        .join(" ");
 
-    // Save the filtered text to a JSON file
-    fs.writeFileSync(
-      "./filtered-data.json",
-      JSON.stringify({ text: filteredText }, null, 2)
-    );
+      // Save the filtered text to a JSON file
+      fs.writeFileSync(
+        "./filtered-data.json",
+        JSON.stringify({ text: filteredText }, null, 2)
+      );
 
-    console.log("Website successfully scraped and filtered!");
-  })
-  .catch((error) => {
-    console.log("An error occurred while fetching the website:", error);
-  });
+      console.log("Website successfully scraped and filtered!");
+    })
+    .catch((error) => {
+      console.log("An error occurred while fetching the website:", error);
+    });
+}
+
+// Update the index file every 1 hour
+setInterval(updateIndexFile, 3600000); // 1 hour in milliseconds
+
+console.log("Scheduler started. index.js will be updated every 1 hour.");
