@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/register": "^7.22.5",
+    "axios": "^1.4.0",
+    "esm": "^3.2.25",
+    "fs": "^0.0.1-security",
+    "html-to-text": "^9.0.5",
+    "puppeteer": "^20.8.2",
+    "website-scraper": "^5.3.1"
+  }
+}
