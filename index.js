@@ -1,45 +1,31 @@
 const axios = require("axios");
 const fs = require("fs");
-const cheerio = require("cheerio");
-const htmlToText = require("html-to-text");
 
 const url = "https://d.daddylivehd.sx/";
+const filePath = "./scraped-data.json";
 
-function updateIndexFile() {
-  // Fetch the HTML content of the website
+// Function to fetch the HTML content and update the file
+const scrapeAndWriteData = () => {
   axios
     .get(url)
     .then((response) => {
       const htmlContent = response.data;
 
-      // Load the HTML content into cheerio
-      const $ = cheerio.load(htmlContent);
-
-      // Extract the relevant text using cheerio
-      const relevantText = $("body").text();
-
-      // Filter the relevant text based on soccer-related keywords
-      const soccerKeywords = ["Soccer"];
-      const filteredText = relevantText
-        .toLowerCase()
-        .split(" ")
-        .filter((word) => soccerKeywords.includes(word))
-        .join(" ");
-
-      // Save the filtered text to a JSON file
+      // Write the HTML content to the JSON file
       fs.writeFileSync(
-        "./filtered-data.json",
-        JSON.stringify({ text: filteredText }, null, 2)
+        filePath,
+        JSON.stringify({ html: htmlContent }, null, 2)
       );
 
-      console.log("Website successfully scraped and filtered!");
+      console.log("Web address scraped and data updated successfully!");
     })
     .catch((error) => {
-      console.log("An error occurred while fetching the website:", error);
+      console.log("An error occurred while scraping the web address:", error);
     });
-}
+};
 
-// Update the index file every 1 hour
-setInterval(updateIndexFile, 3600000); // 1 hour in milliseconds
+// Initial scrape and write
+scrapeAndWriteData();
 
-console.log("Scheduler started. index.js will be updated every 1 hour.");
+// Schedule scraping and writing every hour
+setInterval(scrapeAndWriteData, 60 * 60 * 1000); // 60 minutes * 60 seconds * 1000 milliseconds
