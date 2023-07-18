@@ -4,6 +4,7 @@
     "@babel/preset-env": "^7.22.9",
     "@babel/register": "^7.22.5",
     "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
     "esm": "^3.2.25",
     "fs": "^0.0.1-security",
     "html-to-text": "^9.0.5",
