@@ -1,13 +1,11 @@
-# Ignore node_modules directory
+# Ignore Node.js dependencies
 node_modules/
 
-# Ignore log files
-*.log
+# Ignore scraped data file
+scraped-data.json
 
-# Ignore environment files
+# Ignore extracted matches file
+extracted-matches.json
+
+# Ignore environment variables file
 .env
-.env.*
-
-# Ignore IDE-specific files
-.vscode/
-.idea/

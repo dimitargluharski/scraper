@@ -8,6 +8,7 @@
     "esm": "^3.2.25",
     "fs": "^0.0.1-security",
     "html-to-text": "^9.0.5",
+    "node-telegram-bot-api": "^0.61.0",
     "puppeteer": "^20.8.2",
     "website-scraper": "^5.3.1"
   }

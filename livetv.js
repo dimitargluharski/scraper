@@ -43,12 +43,34 @@ const runFilterScript = () => {
 
   filterScript.on("close", (code) => {
     console.log(`filter.js process exited with code ${code}`);
+    sendTelegramMessage(`filter.js process exited with code ${code}`);
   });
 };
+
+// Function to send a notification message to Telegram
+function sendTelegramMessage(message) {
+  const telegramScript = spawn("node", [
+    path.join(__dirname, "telegram.js"),
+    message,
+  ]);
+
+  telegramScript.stdout.on("data", (data) => {
+    console.log(`telegram.js stdout: ${data}`);
+  });
+
+  telegramScript.stderr.on("data", (data) => {
+    console.error(`telegram.js stderr: ${data}`);
+  });
+
+  telegramScript.on("close", (code) => {
+    console.log(`telegram.js process exited with code ${code}`);
+  });
+}
 
 // Initial scrape and write
 scrapeAndWriteData().then(() => {
   runFilterScript();
+  sendTelegramMessage("Livetv.js script started.");
 });
 
 // Schedule scraping and writing every hour
@@ -56,4 +78,5 @@ setInterval(() => {
   scrapeAndWriteData().then(() => {
     runFilterScript();
   });
+  sendTelegramMessage("Livetv.js script executed.");
 }, 60 * 60 * 1000); // 60 minutes * 60 seconds * 1000 milliseconds
