@@ -3,20 +3,20 @@ const fs = require("fs");
 const cheerio = require("cheerio");
 
 const filePath = "./scraped-data.json";
-const domainName = "https://d.daddylivehd.sx";
+const domainAddress = "https://d.daddylivehd.sx";
 
 // Load the scraped HTML data from the JSON file
 const scrapedData = require(filePath);
 const htmlContent = scrapedData.html;
 
-// Define the regular expression patterns
-const gamePattern = /<hr>(\d{2}:\d{2})\s([^:]+)\s:\s([^v]+)\svs\s([^<]+)/g;
-const linkPattern =
-  /<span[^>]+>\s*([^<|]+)\s*<\/span>\s*<a[^>]+href="([^"]+)"[^>]*>/g;
+// Define the regular expression pattern to match the desired data for matches
+const gamePattern =
+  /<hr>(\d{2}:\d{2})\s([^:]+)\s:\s([^v]+)\svs\s([^<]+)(?:\s<[^>]+>.*?(?:<span[^>]+>.*?<a[^>]+style="color:\s#ff0000;"[^>]+href="([^"]+)"[^>]*>(.*?)<\/a><\/span>(?:\s\|\s<span[^>]+>.*?<a[^>]+style="color:\s#ff0000;"[^>]+href="([^"]+)"[^>]*>(.*?)<\/a><\/span>)*)).*?(<br>)?/g;
 
 // Extract the matches based on the game pattern from the HTML content
 const extractedMatches = [];
 let gameMatch;
+let matchIndex = 1; // Initialize match index variable
 while ((gameMatch = gamePattern.exec(htmlContent)) !== null) {
   const time = gameMatch[1];
   const event = gameMatch[2].trim();
@@ -24,23 +24,28 @@ while ((gameMatch = gamePattern.exec(htmlContent)) !== null) {
   const awayTeam = gameMatch[4].trim();
   const channels = [];
 
-  // Extract the channel links using the link pattern
-  let linkMatch;
-  let channelIndex = 1;
-  while ((linkMatch = linkPattern.exec(gameMatch[0])) !== null) {
-    const label = `Stream ${channelIndex}`;
-    const link = domainName + linkMatch[2];
-    channels.push({ id: channelIndex, link, label });
-    channelIndex++;
+  // Extract the channel links and labels using Cheerio within the current <hr> block
+  const $ = cheerio.load(gameMatch[0]);
+  const channelElements = $("span > a[style='color: #ff0000;']");
+  if (channelElements.length > 0) {
+    channelElements.each((index, element) => {
+      const link = domainAddress + $(element).attr("href");
+      const id = index + 1;
+      const label = `Stream ${id}`;
+      channels.push({ id, link, label });
+    });
   }
 
   extractedMatches.push({
+    id: matchIndex, // Add the match id
     time,
     event,
     homeTeam,
     awayTeam,
     channels,
   });
+
+  matchIndex++; // Increment match index for the next match
 }
 
 // Save the extracted matches to a JSON file
