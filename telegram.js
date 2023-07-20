@@ -11,7 +11,7 @@ function sendTelegramMessage(message) {
 }
 
 try {
-  sendTelegramMessage("Scrape.js script completed.");
+  sendTelegramMessage("Page was successfully scraped!");
 } catch (error) {
   sendTelegramMessage(`Error occurred: ${error.message}`);
 }
