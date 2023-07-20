@@ -43,6 +43,7 @@ const runFilterScript = () => {
 
   filterScript.on("close", (code) => {
     console.log(`filter.js process exited with code ${code}`);
+    // Send a Telegram message only when the filter.js script completes
     sendTelegramMessage(`filter.js process exited with code ${code}`);
   });
 };
@@ -64,19 +65,16 @@ function sendTelegramMessage(message) {
 
   telegramScript.on("close", (code) => {
     console.log(`telegram.js process exited with code ${code}`);
+    // You can choose not to log anything here since it's just a notification script
   });
 }
 
 // Initial scrape and write
-scrapeAndWriteData().then(() => {
-  runFilterScript();
-  sendTelegramMessage("Livetv.js script started.");
-});
-
-// Schedule scraping and writing every hour
-setInterval(() => {
-  scrapeAndWriteData().then(() => {
+scrapeAndWriteData()
+  .then(() => {
     runFilterScript();
+    sendTelegramMessage("Scrape.js script started.");
+  })
+  .finally(() => {
+    sendTelegramMessage("Scrape.js script completed.");
   });
-  sendTelegramMessage("Livetv.js script executed.");
-}, 60 * 60 * 1000); // 60 minutes * 60 seconds * 1000 milliseconds
