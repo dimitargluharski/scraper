@@ -10,12 +10,8 @@ function sendTelegramMessage(message) {
   bot.sendMessage(chatId, message);
 }
 
-sendTelegramMessage("Scrape.js script started.");
-
 try {
-  // ...
+  sendTelegramMessage("Scrape.js script completed.");
 } catch (error) {
   sendTelegramMessage(`Error occurred: ${error.message}`);
 }
-
-sendTelegramMessage("Scrape.js script completed.");
