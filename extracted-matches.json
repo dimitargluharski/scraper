@@ -1,628 +1,724 @@
 [
   {
     "id": 1,
-    "time": "16:30",
-    "event": "Bulgaria Second League",
-    "homeTeam": "Yantra 2019",
-    "awayTeam": "Belasitsa",
+    "time": "07:20",
+    "event": "Club Friendly",
+    "homeTeam": "PSG",
+    "awayTeam": "Al Nassr",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-465.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-1.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-746.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 2,
-    "time": "18:00",
-    "event": "UEFA Europa Conference League",
-    "homeTeam": "Dinamo Minsk",
-    "awayTeam": "Zeljeznicar",
+    "time": "11:30",
+    "event": "Club Friendly",
+    "homeTeam": "Trabzonspor",
+    "awayTeam": "Rabotnički",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-540.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-2.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-429.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 3,
-    "time": "19:00",
-    "event": "UEFA Europa Conference League",
-    "homeTeam": "Gjilani",
-    "awayTeam": "Progr&egrave;s Niedercorn",
+    "time": "13:00",
+    "event": "Club Friendly",
+    "homeTeam": "Udinese",
+    "awayTeam": "RB Leipzig",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-1.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-558.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-540.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 4,
-    "time": "19:45",
-    "event": "UEFA Europa Conference League",
-    "homeTeam": "Vllaznia Shkod&euml;r",
-    "awayTeam": "Linfield",
+    "time": "14:45",
+    "event": "Russian Cup",
+    "homeTeam": "Zenit",
+    "awayTeam": "Akhmat Grozny",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-2.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-127.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-3.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 5,
-    "time": "20:00",
-    "event": "Copa Argentina",
-    "homeTeam": "Villa Mitre",
-    "awayTeam": "Godoy Cruz",
+    "time": "15:00",
+    "event": "Club Friendly",
+    "homeTeam": "Rotherham United",
+    "awayTeam": "Sheffield United",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-746.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-455.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-49.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 6,
-    "time": "20:30",
-    "event": "Campeonato Brasileiro De Futebol Sub-20",
-    "homeTeam": "Gr&ecirc;mio",
-    "awayTeam": "Corinthians",
+    "time": "15:00",
+    "event": "Club Friendly",
+    "homeTeam": "St. Gallen",
+    "awayTeam": "Valencia",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-78.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-530.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-392.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 7,
-    "time": "23:00",
-    "event": "Campeonato Brasileiro De Futebol Sub-20",
-    "homeTeam": "Athletico",
-    "awayTeam": "Flamengo",
+    "time": "15:00",
+    "event": "Club Friendly",
+    "homeTeam": "Porto",
+    "awayTeam": "Wolverhampton Wanderers",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-78.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-718.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-746.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 8,
-    "time": "01:00",
-    "event": "Colombia Primera B",
-    "homeTeam": "Tigres",
-    "awayTeam": "Fortaleza CEIF",
+    "time": "15:00",
+    "event": "Club Friendly",
+    "homeTeam": "Real Murcia",
+    "awayTeam": "Real Zaragoza",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-392.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-3.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-746.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 9,
-    "time": "05:30",
-    "event": "1st Test Day-5",
-    "homeTeam": "Sri Lanka",
-    "awayTeam": "Pakistan",
+    "time": "15:00",
+    "event": "UEFA Champions League",
+    "homeTeam": "Dnipro-1",
+    "awayTeam": "Panathinaikos",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-598.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-31.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-65.php",
-        "label": "Stream 2"
-      },
-      {
-        "id": 3,
-        "link": "https://d.daddylivehd.sx/stream/stream-346.php",
-        "label": "Stream 3"
-      },
-      {
-        "id": 4,
-        "link": "https://d.daddylivehd.sx/stream/stream-368.php",
-        "label": "Stream 4"
-      },
-      {
-        "id": 5,
-        "link": "https://d.daddylivehd.sx/stream/stream-370.php",
-        "label": "Stream 5"
-      },
-      {
-        "id": 6,
-        "link": "https://d.daddylivehd.sx/stream/stream-46.php",
-        "label": "Stream 6"
-      },
-      {
-        "id": 7,
-        "link": "https://d.daddylivehd.sx/stream/stream-38.php",
-        "label": "Stream 7"
-      },
-      {
-        "id": 8,
-        "link": "https://d.daddylivehd.sx/stream/stream-46.php",
-        "label": "Stream 8"
       }
     ]
   },
   {
     "id": 10,
     "time": "15:00",
-    "event": "2nd Test, Day 1",
-    "homeTeam": "West Indies",
-    "awayTeam": "India",
+    "event": "UEFA Champions League",
+    "homeTeam": "Dinamo Zagreb",
+    "awayTeam": "Astana",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-31.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-32.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-368.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 11,
-    "time": "22:30",
-    "event": "Major League Cricket",
-    "homeTeam": "Los Angeles Knight Riders",
-    "awayTeam": "Washington Freedom",
+    "time": "15:30",
+    "event": "Argentina Primera Divisi&oacute;n",
+    "homeTeam": "Barracas Central",
+    "awayTeam": "Arsenal",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-32.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-387.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-368.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 12,
-    "time": "01:30",
-    "event": "CFL",
-    "homeTeam": "Winnipeg Blue Bombers",
-    "awayTeam": "Edmonton Eskimos",
+    "time": "15:30",
+    "event": "Copa Argentina",
+    "homeTeam": "All Boys",
+    "awayTeam": "Estudiantes",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-113.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-746.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-115.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 13,
-    "time": "17:20",
-    "event": "MLB",
-    "homeTeam": "Arizona Diamondbacks",
-    "awayTeam": "Atlanta Braves",
+    "time": "15:45",
+    "event": "Club Friendly",
+    "homeTeam": "Bolton Wanderers",
+    "awayTeam": "Everton",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-33.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-454.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-386.php",
-        "label": "Stream 2"
-      },
-      {
-        "id": 3,
-        "link": "https://d.daddylivehd.sx/stream/stream-118.php",
-        "label": "Stream 3"
-      },
-      {
-        "id": 4,
-        "link": "https://d.daddylivehd.sx/stream/stream-90.php",
-        "label": "Stream 4"
       }
     ]
   },
   {
     "id": 14,
-    "time": "17:35",
-    "event": "MLB",
-    "homeTeam": "San Francisco Giants",
-    "awayTeam": "Cincinnati Reds",
+    "time": "15:45",
+    "event": "Scottish League Cup",
+    "homeTeam": "Falkirk",
+    "awayTeam": "Dundee United",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-4.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-451.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-5.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 15,
-    "time": "18:07",
-    "event": "MLB",
-    "homeTeam": "San Diego Padres",
-    "awayTeam": "Toronto Blue Jays",
+    "time": "16:00",
+    "event": "Campeonato Brasileiro De Futebol Sub-20",
+    "homeTeam": "Palmeiras",
+    "awayTeam": "Botafogo",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-6.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-78.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-7.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 16,
-    "time": "18:10",
-    "event": "MLB",
-    "homeTeam": "Detroit Tigers",
-    "awayTeam": "Kansas City Royals",
+    "time": "16:15",
+    "event": "UEFA Champions League",
+    "homeTeam": "Breidablik",
+    "awayTeam": "K&oslash;benhavn",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-8.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-819.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-33.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 17,
-    "time": "23:40",
-    "event": "MLB",
-    "homeTeam": "Baltimore Orioles",
-    "awayTeam": "Tampa Bay Rays",
+    "time": "16:30",
+    "event": "Club Friendly",
+    "homeTeam": "Sporting CP",
+    "awayTeam": "Real Sociedad",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-2.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-84.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-146.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 18,
-    "time": "01:05",
-    "event": "MLB",
-    "homeTeam": "St. Louis Cardinals",
-    "awayTeam": "Chicago Cubs",
+    "time": "16:30",
+    "event": "Club Friendly",
+    "homeTeam": "Benfica",
+    "awayTeam": "Burnley",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-34.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-49.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-81.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 19,
-    "time": "02:40",
-    "event": "MLB",
-    "homeTeam": "Houston Astros",
-    "awayTeam": "Oakland Athletics",
+    "time": "18:00",
+    "event": "Copa Argentina",
+    "homeTeam": "Patronato",
+    "awayTeam": "Argentinos Juniors",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-3.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-746.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-146.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 20,
-    "time": "16:30",
-    "event": "WNBA",
-    "homeTeam": "Connecticut Sun W",
-    "awayTeam": "Atlanta Dream W",
+    "time": "18:00",
+    "event": "Argentina Primera Divisi&oacute;n",
+    "homeTeam": "Col&oacute;n",
+    "awayTeam": "Tigre",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-9.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-388.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-45.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 21,
-    "time": "01:00",
-    "event": "WNBA",
-    "homeTeam": "Minnesota Lynx W",
-    "awayTeam": "Los Angeles Sparks W",
+    "time": "19:00",
+    "event": "Chile Primera Division",
+    "homeTeam": "&Ntilde;ublense",
+    "awayTeam": "Colo-Colo",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-4.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-642.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-45.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 22,
-    "time": "17:30",
-    "event": "European Roller Hockey Championship",
-    "homeTeam": "quarterfinals <span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-719.php\" target=\"_blank\" rel=\"noopener\">RTP 1 Portugal (CH-719)</a></span></p>\n<h2 style=\"background-color:cyan\">Rugby League</h2>\n<hr>10:50 National Rugby League : St.George Illawarra",
-    "awayTeam": "Wests Tigers",
+    "time": "20:30",
+    "event": "Argentina Primera Divisi&oacute;n",
+    "homeTeam": "Instituto",
+    "awayTeam": "Lan&uacute;s",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-719.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-387.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-117.php",
-        "label": "Stream 2"
-      },
-      {
-        "id": 3,
-        "link": "https://d.daddylivehd.sx/stream/stream-640.php",
-        "label": "Stream 3"
       }
     ]
   },
   {
     "id": 23,
-    "time": "16:00",
-    "event": "Nations League",
-    "homeTeam": "Japan",
-    "awayTeam": "Slovenia",
+    "time": "21:00",
+    "event": "Leagues Cup",
+    "homeTeam": "Santos Laguna",
+    "awayTeam": "Houston Dynamo",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-47.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-39.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-79.php",
-        "label": "Stream 2"
-      },
-      {
-        "id": 3,
-        "link": "https://d.daddylivehd.sx/stream/stream-461.php",
-        "label": "Stream 3"
-      },
-      {
-        "id": 4,
-        "link": "https://d.daddylivehd.sx/stream/stream-398.php",
-        "label": "Stream 4"
-      },
-      {
-        "id": 5,
-        "link": "https://d.daddylivehd.sx/stream/stream-101.php",
-        "label": "Stream 5"
       }
     ]
   },
   {
     "id": 24,
-    "time": "19:00",
-    "event": "Nations League",
-    "homeTeam": "<span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-47.php\" target=\"_blank\" rel=\"noopener\">Polsat Sport Poland (CH-47)</a></span> | <span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-79.php\" target=\"_blank\" rel=\"noopener\">SporTV2 Brasil (CH-79)</a></span> | <span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-461.php\" target=\"_blank\" rel=\"noopener\">Sky Sport Uno IT (CH-461)</a></span> | <span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-398.php\" target=\"_blank\" rel=\"noopener\">Ziggo Voetbal NL (CH-398)</a></span> | <span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-101.php\" target=\"_blank\" rel=\"noopener\">Sport Klub 1 Serbia (CH-101)</a></span> | <span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-398.php\" target=\"_blank\" rel=\"noopener\">Ziggo Voetbal NL (CH-398)</a></span></p>\n<h2 style=\"background-color:cyan\">Water polo</h2>\n<hr>05:15 World Championship Women : China",
-    "awayTeam": "Australia",
+    "time": "21:30",
+    "event": "Colombia Primera B",
+    "homeTeam": "Deportes Quind&iacute;o",
+    "awayTeam": "Bogot&aacute;",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-47.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-392.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-79.php",
-        "label": "Stream 2"
-      },
-      {
-        "id": 3,
-        "link": "https://d.daddylivehd.sx/stream/stream-461.php",
-        "label": "Stream 3"
-      },
-      {
-        "id": 4,
-        "link": "https://d.daddylivehd.sx/stream/stream-398.php",
-        "label": "Stream 4"
-      },
-      {
-        "id": 5,
-        "link": "https://d.daddylivehd.sx/stream/stream-101.php",
-        "label": "Stream 5"
-      },
-      {
-        "id": 6,
-        "link": "https://d.daddylivehd.sx/stream/stream-398.php",
-        "label": "Stream 6"
-      },
-      {
-        "id": 7,
-        "link": "https://d.daddylivehd.sx/stream/stream-417.php",
-        "label": "Stream 7"
-      },
-      {
-        "id": 8,
-        "link": "https://d.daddylivehd.sx/stream/stream-417.php",
-        "label": "Stream 8"
       }
     ]
   },
   {
     "id": 25,
-    "time": "11:00",
-    "event": "World Championship Women",
-    "homeTeam": "Spain W",
-    "awayTeam": "Kazakhstan W",
+    "time": "21:30",
+    "event": "Brazil Copa do Brasil",
+    "homeTeam": "Corinthians",
+    "awayTeam": "S&atilde;o Paulo",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-417.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-78.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-529.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 26,
-    "time": "12:30",
-    "event": "World Championship Women",
-    "homeTeam": "Israel W",
-    "awayTeam": "Netherlands W",
+    "time": "23:30",
+    "event": "Leagues Cup",
+    "homeTeam": "LA Galaxy",
+    "awayTeam": "Le&oacute;n",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-417.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-39.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-145.php",
-        "label": "Stream 2"
-      },
-      {
-        "id": 3,
-        "link": "https://d.daddylivehd.sx/stream/stream-146.php",
-        "label": "Stream 3"
       }
     ]
   },
   {
     "id": 27,
-    "time": "01:30",
-    "event": "World Championship",
-    "homeTeam": "Hungary",
-    "awayTeam": "Argentina",
+    "time": "23:30",
+    "event": "Club Friendly",
+    "homeTeam": "Manchester United",
+    "awayTeam": "Wrexham",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-417.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-377.php",
         "label": "Stream 1"
-      },
-      {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-421.php",
-        "label": "Stream 2"
       }
     ]
   },
   {
     "id": 28,
-    "time": "05:30",
-    "event": "World Championship",
-    "homeTeam": "Serbia",
-    "awayTeam": "Montenegro",
+    "time": "19:30",
+    "event": "Major League Cricket",
+    "homeTeam": "MI New York",
+    "awayTeam": "Seattle Orcas",
     "channels": [
       {
-        "id": 1,
-        "link": "https://d.daddylivehd.sx/stream/stream-417.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-33.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "time": "22:00",
+    "event": "BWF World Tour",
+    "homeTeam": "Japan Open - Round of 32 <span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-33.php\" target=\"_blank\" rel=\"noopener\">TNT Sports 3 UK (CH-33)</a></span></p>\n<h2 style=\"background-color:cyan\">Motorsport</h2>\n<hr>17:30 Speedway: World Cup Semifinals, <span style=\"color: #ff0000;\"><a style=\"color: #ff0000;\" href=\"/stream/stream-424.php\" target=\"_blank\" rel=\"noopener\">SuperSport Motorsport (CH-424)</a></span></p>\n<h2 style=\"background-color:cyan\">Boxing</h2>\n<hr>10:00 Top Rank Boxing : Stephen Fulton",
+    "awayTeam": "Naoya Inoue",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-33.php",
         "label": "Stream 1"
       },
       {
-        "id": 2,
-        "link": "https://d.daddylivehd.sx/stream/stream-134.php",
+        "link": "https://d.daddylivehd.sx/stream/stream-424.php",
         "label": "Stream 2"
+      },
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-37.php",
+        "label": "Stream 3"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "time": "19:40",
+    "event": "MLB",
+    "homeTeam": "Los Angeles Angels",
+    "awayTeam": "Detroit Tigers",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-1.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "time": "19:40",
+    "event": "MLB",
+    "homeTeam": "Baltimore Orioles",
+    "awayTeam": "Philadelphia Phillies",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-2.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "time": "19:40",
+    "event": "MLB",
+    "homeTeam": "Miami Marlins",
+    "awayTeam": "Tampa Bay Rays",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-3.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "time": "20:05",
+    "event": "MLB",
+    "homeTeam": "Colorado Rockies",
+    "awayTeam": "Washington Nationals",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-4.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "time": "20:05",
+    "event": "MLB",
+    "homeTeam": "New York Mets",
+    "awayTeam": "New York Yankees",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-32.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "time": "20:10",
+    "event": "MLB",
+    "homeTeam": "Kansas City Royals",
+    "awayTeam": "Cleveland Guardians",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-5.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "time": "20:40",
+    "event": "MLB",
+    "homeTeam": "Seattle Mariners",
+    "awayTeam": "Minnesota Twins",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-7.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "time": "21:10",
+    "event": "MLB",
+    "homeTeam": "Texas Rangers",
+    "awayTeam": "Houston Astros",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-8.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "time": "21:10",
+    "event": "MLB",
+    "homeTeam": "Chicago Cubs",
+    "awayTeam": "Chicago White Sox",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-9.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "time": "21:10",
+    "event": "MLB",
+    "homeTeam": "Cincinnati Reds",
+    "awayTeam": "Milwaukee Brewers",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-34.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "time": "22:40",
+    "event": "MLB",
+    "homeTeam": "Pittsburgh Pirates",
+    "awayTeam": "San Diego Padres",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-10.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "time": "22:40",
+    "event": "MLB",
+    "homeTeam": "St. Louis Cardinals",
+    "awayTeam": "Arizona Diamondbacks",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-11.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "time": "22:45",
+    "event": "MLB",
+    "homeTeam": "Oakland Athletics",
+    "awayTeam": "San Francisco Giants",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-12.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "time": "23:10",
+    "event": "MLB",
+    "homeTeam": "Toronto Blue Jays",
+    "awayTeam": "Los Angeles Dodgers",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-13.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "time": "20:00",
+    "event": "WNBA",
+    "homeTeam": "Atlanta Dream W",
+    "awayTeam": "Phoenix Mercury W",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-44.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "time": "20:00",
+    "event": "WNBA",
+    "homeTeam": "Chicago Sky W",
+    "awayTeam": "Las Vegas Aces W",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-375.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "time": "21:00",
+    "event": "WNBA",
+    "homeTeam": "Dallas Wings W",
+    "awayTeam": "Connecticut Sun W",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-15.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "time": "23:00",
+    "event": "WNBA",
+    "homeTeam": "Los Angeles Sparks W",
+    "awayTeam": "Indiana Fever W",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-16.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "time": "19:30",
+    "event": "Brazilska league",
+    "homeTeam": "Campo Mourao",
+    "awayTeam": "Carlos Barbosa",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-103.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "time": "09:00",
+    "event": "World Aquatics Championships",
+    "homeTeam": "Greece",
+    "awayTeam": "Montenegro",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-134.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "time": "04:30",
+    "event": "World Aquatics Championships",
+    "homeTeam": "Italy",
+    "awayTeam": "Serbia",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-134.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "time": "06:00",
+    "event": "World Aquatics Championships",
+    "homeTeam": "Hungary",
+    "awayTeam": "USA",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sxhttp://Arena Sport 1 Premium (CH-134)",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "time": "07:30",
+    "event": "World Aquatics Championships",
+    "homeTeam": "Spain",
+    "awayTeam": "France",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/stream/stream-529.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "time": "20:00",
+    "event": "WNBA",
+    "homeTeam": "Atlanta Dream W",
+    "awayTeam": "Phoenix Mercury W",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/extra/stream-333.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "time": "21:00",
+    "event": "WNBA",
+    "homeTeam": "Dallas Wings W",
+    "awayTeam": "Connecticut Sun W",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/extra/stream-334.php",
+        "label": "Stream 1"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "time": "23:00",
+    "event": "WNBA",
+    "homeTeam": "Los Angeles Sparks W",
+    "awayTeam": "Indiana Fever W",
+    "channels": [
+      {
+        "link": "https://d.daddylivehd.sx/extra/stream-335.php",
+        "label": "Stream 1"
       }
     ]
   }
