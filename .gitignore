@@ -9,3 +9,4 @@ extracted-matches.json
 
 # Ignore environment variables file
 .env
+.vercel
