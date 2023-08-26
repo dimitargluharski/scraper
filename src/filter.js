@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 // Function to add 2 hours to a given time string
 function addTwoHours(timeString) {
   const [hour, minute] = timeString.split(':').map(Number);
-  let newHour = hour + 2;
+  let newHour = hour + 5;
 
   if (newHour >= 24) {
     newHour = newHour - 24;
@@ -28,6 +28,7 @@ fs.readFile('../website.html', 'utf8', (err, html) => {
     let time = $(element).find('span.t').text().trim();
     time = addTwoHours(time); // Add 2 hours to the event time
     const text = $(element).find('td').last().text().trim();
+    const link = $(element).find('a').attr('href'); // Extracting the link
 
     // Use regex to exclude unwanted events
     if (/(Boxeo Internacional:|Formula 1:|UFC Fight Night:|Copa Mundial de la FIBA:)/.test(text)) {
@@ -39,8 +40,12 @@ fs.readFile('../website.html', 'utf8', (err, html) => {
 
     if (match) {
       const league = match[1];
-      const teams = match[2];
-      const [homeTeam, awayTeam] = teams.split(' vs ');
+      let teams = match[2];
+      let [homeTeam, awayTeam] = teams.split(' vs ');
+
+      // Remove '(HD)' from team names
+      homeTeam = homeTeam.replace(/\(HD\)/, '').trim();
+      awayTeam = awayTeam.replace(/\(HD\)/, '').trim();
 
       // Create a unique string representing the event
       const uniqueEventString = `${time}-${league}-${homeTeam}-${awayTeam}`;
@@ -52,7 +57,8 @@ fs.readFile('../website.html', 'utf8', (err, html) => {
           time,
           league,
           homeTeam,
-          awayTeam
+          awayTeam,
+          link // Including the link
         });
       }
     }
