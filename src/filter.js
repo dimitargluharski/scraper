@@ -4,7 +4,7 @@ const cheerio = require('cheerio');
 // Function to add 2 hours to a given time string
 function addTwoHours(timeString) {
   const [hour, minute] = timeString.split(':').map(Number);
-  let newHour = hour + 5;
+  let newHour = hour + 8;
 
   if (newHour >= 24) {
     newHour = newHour - 24;
